@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\ImGui">
+      <UniqueIdentifier>{1b7ff775-33a7-4776-9d11-1028a2dc4dcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\glfw">
+      <UniqueIdentifier>{b0a1d448-59a6-420b-8582-033c5ce879d6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="NeuroManager.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\shadr\vcpkg\imgui\imgui.cpp">
+      <Filter>Исходные файлы\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\shadr\vcpkg\imgui\imgui_demo.cpp">
+      <Filter>Исходные файлы\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\shadr\vcpkg\imgui\imgui_draw.cpp">
+      <Filter>Исходные файлы\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\shadr\vcpkg\imgui\imgui_tables.cpp">
+      <Filter>Исходные файлы\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\shadr\vcpkg\imgui\imgui_widgets.cpp">
+      <Filter>Исходные файлы\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\shadr\vcpkg\imgui\backends\imgui_impl_opengl3.cpp">
+      <Filter>Исходные файлы\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\shadr\vcpkg\imgui\backends\imgui_impl_glfw.cpp">
+      <Filter>Исходные файлы\ImGui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\shadr\vcpkg\glfw\include\GLFW\glfw3.h">
+      <Filter>Исходные файлы\glfw</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\shadr\vcpkg\glfw\include\GLFW\glfw3native.h">
+      <Filter>Исходные файлы\glfw</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\shadr\vcpkg\imgui\imgui.h">
+      <Filter>Исходные файлы\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\shadr\vcpkg\imgui\backends\imgui_impl_glfw.h">
+      <Filter>Исходные файлы\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\shadr\vcpkg\imgui\backends\imgui_impl_opengl3.h">
+      <Filter>Исходные файлы\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\shadr\vcpkg\imgui\imconfig.h">
+      <Filter>Исходные файлы\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\shadr\vcpkg\imgui\imgui_internal.h">
+      <Filter>Исходные файлы\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\shadr\vcpkg\imgui\imstb_rectpack.h">
+      <Filter>Исходные файлы\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\shadr\vcpkg\imgui\imstb_textedit.h">
+      <Filter>Исходные файлы\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\shadr\vcpkg\imgui\imstb_truetype.h">
+      <Filter>Исходные файлы\ImGui</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="C:\Users\shadr\vcpkg\glfw-3.4.bin.WIN64\lib-vc2022\glfw3.lib">
+      <Filter>Исходные файлы\glfw</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\shadr\vcpkg\glfw-3.4.bin.WIN64\lib-vc2022\glfw3.dll">
+      <Filter>Исходные файлы\glfw</Filter>
+    </None>
+  </ItemGroup>
+</Project>
